@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+:root {
+  --white: 255, 255, 255;
+  --black: 0, 0, 0;
+
+  --primary-color: var(--white);
+  --background-color: var(--white);
+
+  --font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+  --font-size: 1rem;
+  --font-weight: 400;
+  --body-line-height: 1.5;
+  --body-text-align: left;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight);
+  line-height: var(--body-line-height);
+  color: var(--body-color);
+  text-align: var(--body-text-align);
+  background-color: var(--body-bg);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.navbar-brand {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
